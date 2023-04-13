@@ -4,7 +4,7 @@ const menuBttn = document.getElementById('menu-icon');
 const anchorList = document.querySelectorAll('.anchor-section');
 
 menuBttn.addEventListener('click', () => {
-  mobileMenu.style.display = 'block';
+  mobileMenu.style.display = 'none';
 });
 
 const remove = document.querySelector('.x-remove');
@@ -19,7 +19,7 @@ anchorList.forEach((anchorList) => {
   });
 });
 // project.popUp
-const projectDeck = {
+const projectdeck = {
 
   projectNro1: {
     img: '../img/popUp-img-P.png',
